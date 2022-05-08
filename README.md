@@ -18,6 +18,6 @@ You will also see any lint errors in the console.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 
-Your app is ready to be deployed!
+Your app is ready to be deployed!cmd\
 
 Work done by Mudit Mathur
