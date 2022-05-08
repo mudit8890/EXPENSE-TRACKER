@@ -1,0 +1,35 @@
+{
+  "name": "expense-trackerapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mudit8890/EXPENSE-TRACKER"
+  },
+  "author": "Mudit Mathur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mudit8890/EXPENSE-TRACKER"
+  },
+  "homepage": "https://github.com/mudit8890/EXPENSE-TRACKER"
+}
